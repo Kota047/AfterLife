@@ -16,7 +16,7 @@ public class NPCGScene : MonoBehaviour
                 
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
                 
             }
         }
@@ -29,7 +29,7 @@ public class NPCGScene : MonoBehaviour
                 
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(6);
             }
         }
         if (collider.gameObject.tag == "NPCG3")//takes you to L3N
@@ -40,7 +40,7 @@ public class NPCGScene : MonoBehaviour
                 
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(8);
             }
         }
 
@@ -50,7 +50,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(5);
                 
             }
         }
@@ -60,7 +60,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(9);
             }
         }
 
@@ -70,7 +70,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
         }
         if (collider.gameObject.tag == "NPCB2")
@@ -79,7 +79,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(5);
             }
         }
         if (collider.gameObject.tag == "NPCB3")
@@ -88,7 +88,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(9);
             }
         }
         if (collider.gameObject.tag == "NPCB4")
@@ -97,7 +97,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
             }
         }
         if (collider.gameObject.tag == "NPCB5")
@@ -106,7 +106,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(7);
             }
         }
         if (collider.gameObject.tag == "NPCN1")
@@ -115,7 +115,7 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(8);
             }
         }
         if (collider.gameObject.tag == "NPCN2")
@@ -124,11 +124,12 @@ public class NPCGScene : MonoBehaviour
             {
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(7);
             }
         }
         if (collider.gameObject.tag == "Chrono")
         {
+            Destroy(GameObject.FindWithTag("Player"));
             SceneManager.LoadScene(0);
             GameVariables.keyObj = 0;
             
