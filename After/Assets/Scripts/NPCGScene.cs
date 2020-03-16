@@ -11,9 +11,10 @@ public class NPCGScene : MonoBehaviour
     {
         if (collider.gameObject.tag == "NPCG1")//takes you to L2G
         {
+            
             if (GameVariables.keyObj == 1)
             {
-                
+                //Debug.Log("dasd");
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
                 SceneManager.LoadScene(3);
