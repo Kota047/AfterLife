@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -22.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217327343
@@ -377,7 +377,7 @@ RectTransform:
   m_GameObject: {fileID: 372413956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.83641887, y: 1.6875, z: 1}
+  m_LocalScale: {x: 0.97233695, y: 1.6875, z: 1}
   m_Children:
   - {fileID: 217327342}
   m_Father: {fileID: 887654218}
@@ -385,7 +385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 117, y: 50}
+  m_AnchoredPosition: {x: 138, y: 48.2}
   m_SizeDelta: {x: 167.62, y: 30.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372413958
@@ -505,7 +505,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ce04452e254eb8e4bab3805d985a90fd, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.511
   m_Pitch: 1
@@ -684,7 +684,7 @@ RectTransform:
   m_GameObject: {fileID: 1205084725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2625, y: 1, z: 1}
+  m_LocalScale: {x: 1.3729688, y: 1, z: 1}
   m_Children:
   - {fileID: 1605647418}
   m_Father: {fileID: 887654218}
@@ -692,7 +692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 117.69, y: -79.8}
+  m_AnchoredPosition: {x: 137.9, y: -79.8}
   m_SizeDelta: {x: 108.65, y: 46.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1205084727
@@ -1372,7 +1372,7 @@ RectTransform:
   m_GameObject: {fileID: 1735924111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2625, y: 1, z: 1}
+  m_LocalScale: {x: 1.4451679, y: 1, z: 1}
   m_Children:
   - {fileID: 1490633322}
   m_Father: {fileID: 887654218}
@@ -1380,7 +1380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 117, y: -12.3}
+  m_AnchoredPosition: {x: 137.2, y: -12.3}
   m_SizeDelta: {x: 110.03, y: 49.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735924113
