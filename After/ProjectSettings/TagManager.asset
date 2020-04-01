@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPCG1
+  - KillZone
+  - NPCB1
+  - PickUp
+  - Talk
   layers:
   - Default
   - TransparentFX

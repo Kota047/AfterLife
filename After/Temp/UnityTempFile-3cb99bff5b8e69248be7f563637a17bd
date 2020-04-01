@@ -427,6 +427,7 @@ Assets\NotOriginal\StealF\Scripts\SlowMoButton.cs
 "Assets\NotOriginal\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs"
 "Assets\NotOriginal\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs"
 "Assets\NotOriginal\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs"
+Assets\Scenes\DiologManager.cs
 Assets\Scripts\KeyObjPick.cs
 Assets\Scripts\MainMenu.cs
 Assets\Scripts\Manager.cs
