@@ -38,7 +38,7 @@ public class NPCGScene : MonoBehaviour
             
             if (GameVariables.keyObj == 1)
             {
-                
+               Debug.Log("dasd");
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
                 SceneManager.LoadScene(8);
@@ -87,6 +87,7 @@ public class NPCGScene : MonoBehaviour
         {
             if (GameVariables.keyObj == 1)
             {
+                Debug.Log("dasd");
                 transform.position = new Vector3(0, 0, 0);
                 GameVariables.keyObj = 0;
                 SceneManager.LoadScene(9);

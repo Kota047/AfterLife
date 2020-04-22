@@ -8,7 +8,7 @@ public class KeyObjPick : MonoBehaviour
     {
         if (collider.gameObject.tag == "PickUp")
         {
-           
+            Debug.Log("Pickup = 1");
             GameVariables.keyObj += 1;
             Destroy(collider.gameObject);
         }
